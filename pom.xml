@@ -286,7 +286,7 @@
         <version>2.2</version>
         <configuration>
           <server>tomcat-development-server</server>
-          <url>https://localhost:8080/manager/text</url>
+          <url>https://localhost:8080/manager/html</url>
       <!--    <warFile>target\spring-petclinic-*.war</warFile>  -->
           <path>/petclinic</path>
           <username>admin</username>
