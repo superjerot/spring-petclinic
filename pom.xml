@@ -286,9 +286,11 @@
         <version>2.2</version>
         <configuration>
           <server>tomcat-development-server</server>
-          <url>https://192.168.1.35:9999/manager/text</url>
+          <url>https://localhost:8080/manager/text</url>
       <!--    <warFile>target\spring-petclinic-*.war</warFile>  -->
           <path>/petclinic</path>
+          <username>admin</username>
+          <password>cloud@123</password>
         </configuration>
       </plugin>
     </plugins>
